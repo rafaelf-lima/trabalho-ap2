@@ -27,6 +27,8 @@ h5 {
 
 #feminino,
 #masculino {
+  max-width: 1200px;
+  margin: auto;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
@@ -67,4 +69,22 @@ h5 {
     border: transparent;
     margin-left: 50%;
     font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .foto_jogador {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .itens_jogador {
+    text-align: center;
+  }
+
 }
