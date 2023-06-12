@@ -29,17 +29,10 @@ h5 {
 #masculino {
   display: grid;
   grid-gap: 10px;
-  max-width: 1200px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 @media screen and (min-width: 768px) {
-  #feminino,
-  #masculino {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 1024px) {
   #feminino,
   #masculino {
     grid-template-columns: repeat(4, 1fr);
