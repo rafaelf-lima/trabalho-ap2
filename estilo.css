@@ -25,11 +25,32 @@ h5 {
     font-family: nunito;
 }
 
-#feminino, #masculino {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); 
-    grid-gap: 10px; 
+#feminino,
+#masculino {
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  #feminino,
+  #masculino {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media screen and (min-width: 1024px) {
+  #feminino,
+  #masculino {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #feminino,
+  #masculino {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
 
 .img_jogadoras, .img_jogadores {
     border: 5px white solid;
