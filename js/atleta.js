@@ -28,7 +28,7 @@ nome_completo.textContent = `Nome completo: ${nomeCompleto}`;
 div.appendChild(nome_completo);
 
 const descricao_info = document.createElement('h4');
-descricao_info.textContent = `Descrição sobre a atleta: ${descricao}`;
+descricao_info.textContent = `Descrição sobre jogador/jogadora: ${descricao}`;
 div.appendChild(descricao_info);
 
 
